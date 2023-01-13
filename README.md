@@ -42,3 +42,9 @@ We call this function to define the object in all tests where it's needed.
 So while the actual definition of the basic list is not in all tests, we have a better idea of what's going on when reading the test.
 
 If the test were to fail, in the console we could run `devtools::load_all()` and run the code of the test, as `devtools::load_all()` loads testthat helper files.
+
+## Conclusion
+
+DRY and DAMP are trade-offs.
+To keep the water analogy, we don't want code whose effects leak unexpectedly.
+For elements such as environment variables and options, we would use calls such as `withr::local_envvar()` in each test, but let's keep this for another episode!
