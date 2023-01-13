@@ -20,7 +20,7 @@ Furthermore we define the same test object in two test files.
 
 [diff](https://github.com/maelle/swamp/commit/381f244f56f1837207f2150a7e76c70bd59c0422)
 
-At this stage we diligently remember about DRY, Don't Repeat Yourself, and about the mechanics of testthat helper files.
+At this stage we diligently remember about DRY, Don't Repeat Yourself, and about the mechanics of [testthat helper files](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/).
 Files whose name start with `helper-` are loaded before all tests.
 
 So we create a helper file where we create `test_object`, which is therefore available for tests!
