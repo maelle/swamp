@@ -5,7 +5,7 @@
 
 The goal of swamp is to illustrate DRY (don't repeat yourself) and DAMP (descriptive and meaningful phrases) in tests of R packages.
 
-For reference see https://r-pkgs.org/testing-advanced.html in R Packages by Hadley Wickham and Jenny Bryan.
+For reference see https://r-pkgs.org/testing-design.html and https://r-pkgs.org/testing-advanced.html in R Packages by Hadley Wickham and Jenny Bryan.
 
 ## Stage 1: muddy!
 
