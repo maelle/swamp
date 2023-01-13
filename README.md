@@ -48,4 +48,7 @@ If the test were to fail, in the console we could run `devtools::load_all()` and
 DRY vs DAMP is a trade-off.
 To keep the water analogy, we don't want code whose effects leak unexpectedly.
 We want self-contained test that we can understand and run without too much context.
+
+One fact from the [book "Software Engineering at Google"](https://www.goodreads.com/book/show/48816586-software-engineering-at-google) that stuck with me is that code can afford to be a bit less obvious because it as tests covering it, whereas test code isn't covered by test code.
+
 For elements such as environment variables and options, we would use calls such as `withr::local_envvar()` in each test, but let's keep this for another episode!
