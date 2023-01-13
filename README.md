@@ -45,6 +45,7 @@ If the test were to fail, in the console we could run `devtools::load_all()` and
 
 ## Conclusion
 
-DRY and DAMP are trade-offs.
+DRY vs DAMP is a trade-off.
 To keep the water analogy, we don't want code whose effects leak unexpectedly.
+We want self-contained test that we can understand and run without too much context.
 For elements such as environment variables and options, we would use calls such as `withr::local_envvar()` in each test, but let's keep this for another episode!
