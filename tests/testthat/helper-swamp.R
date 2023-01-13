@@ -1,1 +1,3 @@
-test_object <- list(a = 1, b = 2)
+basic_list <- function() {
+  list(a = 1, b = 2)
+}
